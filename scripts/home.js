@@ -83,6 +83,7 @@ const showPhoneDetails = (phone) =>{
         <p><span>Slug:</span> ${phone?.slug}</p>
         <p><span>Release Date:</span> ${phone?.releaseDate}</p>
         <p><span>Brand:</span> ${phone?.brand}</p>
+        <p><span>GPS:</span> ${phone?.others?.GPS}</p>
     `
 
     show_details_modal.showModal();
