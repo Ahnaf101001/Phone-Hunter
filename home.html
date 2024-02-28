@@ -34,103 +34,19 @@
         <section class="mb-[60px] flex flex-col justify-center items-center gap-[30px]">
             <h3 class="font-semibold text-4xl">Search your phone</h3>
             <div class="flex">
-                <input type="text" name="" id="" class="w-[602px] h-[64px] bg-[#100F0F0D]"><i class='bx bx-search'></i>
-                <button class="btn rounded-none bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Search</button>
+                <label class="input input-bordered flex rounded-none w-[600px] h-[64px] items-center gap-2 bg-[#100F0F0D]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd" /></svg>
+                    <input id="search-field" type="text" class="grow" placeholder="Search your phone" />
+                </label>
+                <button onclick="handleSearch()" class="btn rounded-none bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Search</button>
             </div>
         </section>
 
         <!-- Cards -->
         <section class="flex flex-col gap-[24px] text-center items-center mt-[50px] mb-[120px]">
-            <!-- 1st row -->
-            <div class="flex gap-[24px]">
-                <!-- 1st pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 1.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
-                <!-- 2nd pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 2.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
-                <!-- 3rd pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 3.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2nd row -->
-            <div class="flex gap-[24px]">
-                <!-- 4th pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 4.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
-                <!-- 5th pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 5.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
-                <!-- 6th pic -->
-                <div class="w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]">
-                    <figure class="px-10 pt-10">
-                      <img class="bg-[#0D6EFD0D] m-auto" src="Images/phone 6.png" alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title font-bold">Iphone 13 Pro Max</h2>
-                      <p class="text-[#706F6F]">Unveiling the Apple iPhone 13 Pro Max: a pinnacle of mobile technology, boasting unparalleled performance, cutting-edge camera capabilities, and exquisite design.</p>
-                      <h2 class="card-title font-bold">$999</h2>
-                      <div class="card-actions">
-                        <button class="btn bg-[#0D6EFD] text-xl w-[160px] h-[64px] text-white hover:text-[#0D6EFD] hover:bg-white">Show Details</button>
-                      </div>
-                    </div>
-                </div>
+            
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
+                
             </div>
 
             <!-- Show all button -->
