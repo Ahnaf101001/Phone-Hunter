@@ -18,7 +18,7 @@ const displayPhones = phones => {
     phoneContainer.textContent = "";
 
     phones.forEach(phone =>{
-        console.log(phone);
+        // console.log(phone);
         //2. create a div
         const phoneCard = document.createElement("div");
         phoneCard.classList = `w-[364px] h-[633px] bg-base-100 rounded-none border-2 border-[#CFCFCF]`;
@@ -47,7 +47,7 @@ const displayPhones = phones => {
 const handleSearch = () =>{
     const searchField = document.getElementById("search-field");
     const searchText = searchField.value;
-    console.log(searchText);
+    // console.log(searchText);
     loadPhone(searchText);
 }
 
